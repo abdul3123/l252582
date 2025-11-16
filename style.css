@@ -1,0 +1,146 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #293241;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ee6c4d;
+}
+
+.hero {
+    background: #3d5a80;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.hero .cta {
+    background: #ee6c4d;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 32px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    margin-top: 18px;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.hero .cta:hover {
+    background: #293241;
+}
+
+.featured {
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.featured h2 {
+    margin-bottom: 24px;
+    font-size: 2em;
+    color: #293241;
+}
+
+.car-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-card {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.07);
+    width: 270px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.car-card:hover {
+    transform: translateY(-8px);
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.car-card h3 {
+    color: #3d5a80;
+    margin: 12px 0 8px 0;
+}
+
+.car-card p {
+    font-size: 1.1em;
+    color: #ee6c4d;
+    margin: 0 0 10px 0;
+}
+
+.car-card a {
+    color: #3d5a80;
+    text-decoration: none;
+    border: 1px solid #3d5a80;
+    padding: 6px 20px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.car-card a:hover {
+    background: #3d5a80;
+    color: #fff;
+}
+
+footer {
+    background: #293241;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 30px;
+}
